@@ -10,3 +10,9 @@ console.log(numero);
 var frase = "Quanto é 10 + 20? ";
 var soma = soma(frase);
 console.log(frase + soma);
+
+var ancora = document.querySelector("#a1");
+ancora.addEventListener("click", function(event){
+	alert("Rolou o click - "+this.text);
+	event.preventDefault;
+});
