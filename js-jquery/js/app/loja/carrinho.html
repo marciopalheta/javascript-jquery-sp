@@ -28,8 +28,7 @@
     </header>
 
     <div id="principal" class="container">
-
-			<div class="aviso">
+				<div class="aviso">
 				<ul>
  					<li>Todas as bolsas nacionais com 30% de desconto</li>
 					<li>Casacos importados com 15% de desconto</li>
@@ -40,22 +39,23 @@
       <ul id="carrinho">
 
         <li id="item1" class="clearfix">
-          <a href="produto1.html">  
-           <img alt="Produto 1" src="img/produto-1.jpg" />        
+			<a href="produto1.html">  
+			<img alt="Produto 1" src="img/produto-1.jpg" />        
 						<h3>Furlan Mistery Cardigan</h3>
-					</a>          
-					<div class="item_info">
-            <small>Código: <strong>#00AMT01</strong></small>
-            <p>Valor unitário: <span id="item1_valor_unit">R$ 120,00</span></p>
-          </div>
-          <form action="/" method="post">
-            <p>
-              <label for="item1_quantidade">Quantidade:</label>
-              <input id="item1_quantidade" type="text" value="1" maxlength="2"/>
-              <a href="#">Excluir</a>
-            </p>
-          </form>
-          <p>Valor total: <span id="item1_valor_total">R$ 120,00</span></p>
+			</a>          
+
+			<div class="item_info">
+			<small>Código: <strong>#00AMT01</strong></small>
+			<p>Valor unitário: <span id="item1_valor_unit">R$ 120,00</span></p>
+			</div>
+			<form action="/" method="post">
+			<p>
+			  <label for="item1_quantidade">Quantidade:</label>
+			  <input id="item1_quantidade" type="text" value="1" maxlength="2"/>
+			  <a href="#">Excluir</a>
+			</p>
+			</form>
+			<p>Valor total: <span id="item1_valor_total">R$ 120,00</span></p>
         </li>
 
         <li id="item2" class="clearfix">
@@ -125,5 +125,11 @@
 
       </div>
     </footer>
+    <script src="js/carrinho/input-filtro.js"></script>
+    <script src="js/modules/moeda.js"></script>
+    <script src="js/carrinho/total.js"></script>
+    <script src="js/carrinho/aviso.js"></script>
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/carrinho/exclusao.js"></script>
   </body>
 </html>
