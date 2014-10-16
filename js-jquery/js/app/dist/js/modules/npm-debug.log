@@ -1,0 +1,91 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/node/bin/node',
+1 verbose cli   '/node/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt',
+1 verbose cli   'grunt-clicd',
+1 verbose cli   '../../' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 warn package.json mirror-fashion@0.0.0 No description
+5 warn package.json mirror-fashion@0.0.0 No repository field.
+6 warn package.json mirror-fashion@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'grunt', null ]
+9 verbose cache add name=undefined spec="grunt" args=["grunt",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'grunt',
+10 verbose parsed url   path: 'grunt',
+10 verbose parsed url   href: 'grunt' }
+11 verbose cache add [ 'grunt-clicd', null ]
+12 verbose cache add name=undefined spec="grunt-clicd" args=["grunt-clicd",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'grunt-clicd',
+13 verbose parsed url   path: 'grunt-clicd',
+13 verbose parsed url   href: 'grunt-clicd' }
+14 verbose cache add [ '../../', null ]
+15 verbose cache add name=undefined spec="../../" args=["../../",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '../../',
+16 verbose parsed url   path: '../../',
+16 verbose parsed url   href: '../../' }
+17 silly lockFile 20ff3fd8-grunt grunt
+18 verbose lock grunt /home/web4638/.npm/20ff3fd8-grunt.lock
+19 silly lockFile d009d38c-grunt-clicd grunt-clicd
+20 verbose lock grunt-clicd /home/web4638/.npm/d009d38c-grunt-clicd.lock
+21 silly lockFile 323e3584- ../../
+22 verbose lock ../../ /home/web4638/.npm/323e3584-.lock
+23 silly lockFile 20ff3fd8-grunt grunt
+24 silly lockFile 20ff3fd8-grunt grunt
+25 silly lockFile d009d38c-grunt-clicd grunt-clicd
+26 silly lockFile d009d38c-grunt-clicd grunt-clicd
+27 verbose addNamed [ 'grunt', '' ]
+28 verbose addNamed [ null, '*' ]
+29 silly lockFile 55f1ff24-grunt grunt@
+30 verbose lock grunt@ /home/web4638/.npm/55f1ff24-grunt.lock
+31 verbose addNamed [ 'grunt-clicd', '' ]
+32 verbose addNamed [ null, '*' ]
+33 silly lockFile 5400cf31-grunt-clicd grunt-clicd@
+34 verbose lock grunt-clicd@ /home/web4638/.npm/5400cf31-grunt-clicd.lock
+35 silly lockFile 323e3584- ../../
+36 silly lockFile 323e3584- ../../
+37 silly addNameRange { name: 'grunt', range: '*', hasData: false }
+38 silly addNameRange { name: 'grunt-clicd', range: '*', hasData: false }
+39 error addLocal Could not install ../../
+40 error Error: ENOENT, open '../../package.json'
+41 error If you need help, you may report this *entire* log,
+41 error including the npm and node versions, at:
+41 error     <http://github.com/isaacs/npm/issues>
+42 error System Linux 3.2.0-70-generic-pae
+43 error command "/node/bin/node" "/node/bin/npm" "install" "grunt" "grunt-clicd" "../../"
+44 error cwd /home/web4638/git/javascript-jquery-sp/js-jquery/js/app/loja/js/modules
+45 error node -v v0.10.24
+46 error npm -v 1.3.21
+47 error path ../../package.json
+48 error code ENOENT
+49 error errno 34
+50 verbose exit [ 34, true ]
